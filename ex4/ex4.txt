@@ -1,0 +1,138 @@
+Level 1 cahce: 128 KB
+level 2: 510 KB
+level 3: 3 MB
+
+user@debian:/media/sf_OS/OsCode/ex4$ ./a.out
+Size (bytes):     4096, Stride (bytes):   4, read+write:  1.25 ns
+
+
+user@debian:/media/sf_OS/OsCode/ex4$ ./a.out
+Size (bytes):     4096, Stride (bytes):   4, read+write:  1.25 ns
+Size (bytes):     4096, Stride (bytes):   8, read+write:  1.21 ns
+
+
+
+
+user@debian:/media/sf_OS/OsCode/ex4$ ./a.out
+Size (bytes):     4096, Stride (bytes):   4, read+write:  1.10 ns
+Size (bytes):     4096, Stride (bytes):   8, read+write:-11.82 ns
+Size (bytes):     4096, Stride (bytes):  16, read+write:  4.23 ns
+Size (bytes):     4096, Stride (bytes):  32, read+write: -1.39 ns
+Size (bytes):     4096, Stride (bytes):  64, read+write:  2.82 ns
+Size (bytes):     4096, Stride (bytes): 128, read+write: -5.15 ns
+Size (bytes):     4096, Stride (bytes): 256, read+write: -1.99 ns
+Size (bytes):     4096, Stride (bytes): 512, read+write: -1.23 ns
+Size (bytes):     8192, Stride (bytes):   4, read+write:  2.64 ns
+Size (bytes):     8192, Stride (bytes):   8, read+write: 12.28 ns
+Size (bytes):     8192, Stride (bytes):  16, read+write: 13.47 ns
+Size (bytes):     8192, Stride (bytes):  32, read+write: 34.37 ns
+Size (bytes):     8192, Stride (bytes):  64, read+write: -2.96 ns
+Size (bytes):     8192, Stride (bytes): 128, read+write: -3.43 ns
+Size (bytes):     8192, Stride (bytes): 256, read+write: -2.84 ns
+Size (bytes):     8192, Stride (bytes): 512, read+write: -0.62 ns
+Size (bytes):    16384, Stride (bytes):   4, read+write:  2.31 ns
+Size (bytes):    16384, Stride (bytes):   8, read+write: -1.39 ns
+Size (bytes):    16384, Stride (bytes):  16, read+write: -2.18 ns
+Size (bytes):    16384, Stride (bytes):  32, read+write:  1.47 ns
+Size (bytes):    16384, Stride (bytes):  64, read+write: -1.04 ns
+Size (bytes):    16384, Stride (bytes): 128, read+write: -3.02 ns
+Size (bytes):    16384, Stride (bytes): 256, read+write:  3.92 ns
+Size (bytes):    16384, Stride (bytes): 512, read+write: 13.79 ns
+Size (bytes):    32768, Stride (bytes):   4, read+write: -3.31 ns
+Size (bytes):    32768, Stride (bytes):   8, read+write:  2.75 ns
+Size (bytes):    32768, Stride (bytes):  16, read+write: -4.27 ns
+Size (bytes):    32768, Stride (bytes):  32, read+write:  8.64 ns
+Size (bytes):    32768, Stride (bytes):  64, read+write: -0.97 ns
+Size (bytes):    32768, Stride (bytes): 128, read+write:  8.45 ns
+Size (bytes):    32768, Stride (bytes): 256, read+write: -1.03 ns
+Size (bytes):    32768, Stride (bytes): 512, read+write:  1.48 ns
+Size (bytes):    65536, Stride (bytes):   4, read+write: -0.77 ns
+Size (bytes):    65536, Stride (bytes):   8, read+write:  1.07 ns
+Size (bytes):    65536, Stride (bytes):  16, read+write: -7.97 ns
+Size (bytes):    65536, Stride (bytes):  32, read+write: -4.31 ns
+Size (bytes):    65536, Stride (bytes):  64, read+write:  0.86 ns
+Size (bytes):    65536, Stride (bytes): 128, read+write: -0.16 ns
+Size (bytes):    65536, Stride (bytes): 256, read+write: -0.19 ns
+Size (bytes):    65536, Stride (bytes): 512, read+write: -0.28 ns
+Size (bytes):   131072, Stride (bytes):   4, read+write:-18.70 ns
+Size (bytes):   131072, Stride (bytes):   8, read+write: -2.37 ns
+Size (bytes):   131072, Stride (bytes):  16, read+write:  2.38 ns
+Size (bytes):   131072, Stride (bytes):  32, read+write:  3.23 ns
+Size (bytes):   131072, Stride (bytes):  64, read+write: -3.75 ns
+Size (bytes):   131072, Stride (bytes): 128, read+write:  0.12 ns
+Size (bytes):   131072, Stride (bytes): 256, read+write:  0.10 ns
+Size (bytes):   131072, Stride (bytes): 512, read+write:  0.43 ns
+Size (bytes):   262144, Stride (bytes):   4, read+write: -5.59 ns
+Size (bytes):   262144, Stride (bytes):   8, read+write: -1.31 ns
+Size (bytes):   262144, Stride (bytes):  16, read+write:  7.86 ns
+Size (bytes):   262144, Stride (bytes):  32, read+write: 32.53 ns
+Size (bytes):   262144, Stride (bytes):  64, read+write: -0.93 ns
+Size (bytes):   262144, Stride (bytes): 128, read+write:  1.29 ns
+Size (bytes):   262144, Stride (bytes): 256, read+write:  1.24 ns
+Size (bytes):   262144, Stride (bytes): 512, read+write:  1.95 ns
+Size (bytes):   524288, Stride (bytes):   4, read+write: -1.57 ns
+Size (bytes):   524288, Stride (bytes):   8, read+write: -1.67 ns
+Size (bytes):   524288, Stride (bytes):  16, read+write: -1.45 ns
+Size (bytes):   524288, Stride (bytes):  32, read+write: -1.06 ns
+Size (bytes):   524288, Stride (bytes):  64, read+write:  0.30 ns
+Size (bytes):   524288, Stride (bytes): 128, read+write:  2.38 ns
+Size (bytes):   524288, Stride (bytes): 256, read+write:  1.89 ns
+Size (bytes):   524288, Stride (bytes): 512, read+write:  4.04 ns
+Size (bytes):  1048576, Stride (bytes):   4, read+write: -1.63 ns
+Size (bytes):  1048576, Stride (bytes):   8, read+write: -1.37 ns
+Size (bytes):  1048576, Stride (bytes):  16, read+write: -1.63 ns
+Size (bytes):  1048576, Stride (bytes):  32, read+write: -0.94 ns
+Size (bytes):  1048576, Stride (bytes):  64, read+write:  0.94 ns
+Size (bytes):  1048576, Stride (bytes): 128, read+write:  4.04 ns
+Size (bytes):  1048576, Stride (bytes): 256, read+write:  2.87 ns
+Size (bytes):  1048576, Stride (bytes): 512, read+write:  6.68 ns
+Size (bytes):  2097152, Stride (bytes):   4, read+write: -1.65 ns
+Size (bytes):  2097152, Stride (bytes):   8, read+write: -1.16 ns
+Size (bytes):  2097152, Stride (bytes):  16, read+write:  1.88 ns
+Size (bytes):  2097152, Stride (bytes):  32, read+write:  2.07 ns
+Size (bytes):  2097152, Stride (bytes):  64, read+write:  0.99 ns
+Size (bytes):  2097152, Stride (bytes): 128, read+write:  4.03 ns
+Size (bytes):  2097152, Stride (bytes): 256, read+write:  4.77 ns
+Size (bytes):  2097152, Stride (bytes): 512, read+write:  6.96 ns
+Size (bytes):  4194304, Stride (bytes):   4, read+write: -1.57 ns
+Size (bytes):  4194304, Stride (bytes):   8, read+write: -1.46 ns
+Size (bytes):  4194304, Stride (bytes):  16, read+write: -0.55 ns
+Size (bytes):  4194304, Stride (bytes):  32, read+write:  3.86 ns
+Size (bytes):  4194304, Stride (bytes):  64, read+write: 10.33 ns
+Size (bytes):  4194304, Stride (bytes): 128, read+write: 11.35 ns
+Size (bytes):  4194304, Stride (bytes): 256, read+write: 12.45 ns
+Size (bytes):  4194304, Stride (bytes): 512, read+write: 21.06 ns
+Size (bytes):  8388608, Stride (bytes):   4, read+write: -1.46 ns
+Size (bytes):  8388608, Stride (bytes):   8, read+write: -1.49 ns
+Size (bytes):  8388608, Stride (bytes):  16, read+write: -0.40 ns
+Size (bytes):  8388608, Stride (bytes):  32, read+write:  2.07 ns
+Size (bytes):  8388608, Stride (bytes):  64, read+write:  9.22 ns
+Size (bytes):  8388608, Stride (bytes): 128, read+write: 14.31 ns
+Size (bytes):  8388608, Stride (bytes): 256, read+write: 18.01 ns
+Size (bytes):  8388608, Stride (bytes): 512, read+write: 18.28 ns
+Size (bytes): 16777216, Stride (bytes):   4, read+write: -1.37 ns
+Size (bytes): 16777216, Stride (bytes):   8, read+write: -1.41 ns
+Size (bytes): 16777216, Stride (bytes):  16, read+write: -0.12 ns
+Size (bytes): 16777216, Stride (bytes):  32, read+write:  2.32 ns
+Size (bytes): 16777216, Stride (bytes):  64, read+write:  5.83 ns
+Size (bytes): 16777216, Stride (bytes): 128, read+write: 15.89 ns
+Size (bytes): 16777216, Stride (bytes): 256, read+write: 21.06 ns
+Size (bytes): 16777216, Stride (bytes): 512, read+write: 27.82 ns
+Size (bytes): 33554432, Stride (bytes):   4, read+write: -0.77 ns
+Size (bytes): 33554432, Stride (bytes):   8, read+write: -1.87 ns
+Size (bytes): 33554432, Stride (bytes):  16, read+write:  1.19 ns
+Size (bytes): 33554432, Stride (bytes):  32, read+write:  7.15 ns
+Size (bytes): 33554432, Stride (bytes):  64, read+write: 10.53 ns
+Size (bytes): 33554432, Stride (bytes): 128, read+write: 21.66 ns
+Size (bytes): 33554432, Stride (bytes): 256, read+write: 27.42 ns
+Size (bytes): 33554432, Stride (bytes): 512, read+write: 30.20 ns
+Size (bytes): 67108864, Stride (bytes):   4, read+write: -1.14 ns
+Size (bytes): 67108864, Stride (bytes):   8, read+write: -0.46 ns
+Size (bytes): 67108864, Stride (bytes):  16, read+write:  0.99 ns
+Size (bytes): 67108864, Stride (bytes):  32, read+write:  3.38 ns
+Size (bytes): 67108864, Stride (bytes):  64, read+write:  9.34 ns
+Size (bytes): 67108864, Stride (bytes): 128, read+write: 19.87 ns
+Size (bytes): 67108864, Stride (bytes): 256, read+write: 25.23 ns
+Size (bytes): 67108864, Stride (bytes): 512, read+write: 29.80 ns
+user@debian:/media/sf_OS/OsCode/ex4$ 
+
